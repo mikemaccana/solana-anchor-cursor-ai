@@ -1,6 +1,6 @@
 # Solana Cursor AI rules
 
-## [Coding Guidelines `anchor.mdc` file is here](./cursor/rules/anchor.mdc)
+## [Coding Guidelines `anchor.mdc` file is here](./.cursor/rules/anchor.mdc)
 
 Here's a Cursor AI prompt I'm using for my Anchor projects.
 
