@@ -1,6 +1,6 @@
 # Solana Anchor Cursor AI rules
 
-Here's a Cursor AI rules file I'm using tp create and edit my Solana Anchor projects.
+Here's a Cursor AI rules file I'm using to create and edit my Solana Anchor projects.
 
 ## How do I use these files?
 
