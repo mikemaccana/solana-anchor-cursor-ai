@@ -1,0 +1,14 @@
+---
+description: Anchor TypeScript
+globs: *.ts
+---
+Create unit tests in TS in the `tests` directory. 
+
+Please the node js inbuilt test and assertion libraries (then start the tests using `esrun` instead of `ts-mocha`). Imports look like:
+
+```typescript
+import { before, describe, test, it } from "node:test";
+import { assert } from "node:console";
+```
+
+Use `test` rather than `it`.
