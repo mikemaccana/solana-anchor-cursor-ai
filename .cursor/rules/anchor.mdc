@@ -1,6 +1,7 @@
 ---
 description: Solana Anchor coding guidelines
 globs: *.ts, *.rs
+alwaysApply: false
 ---
 There is an Anchor project. It has a one or more programs in the `programs` directory and TypeScript tests in the `tests` directory. You may only modify files in these folders.
 

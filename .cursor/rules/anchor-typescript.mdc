@@ -1,6 +1,7 @@
 ---
 description: Anchor TypeScript
 globs: *.ts
+alwaysApply: false
 ---
 Create unit tests in TS in the `tests` directory. 
 
