@@ -1,5 +1,7 @@
 # Solana Anchor Cursor AI rules
 
+🆕 Updated for Anchor 0.31.0
+
 Here's a Cursor AI rules file I'm using to create and edit my Solana Anchor projects.
 
 ## How do I use these files?
