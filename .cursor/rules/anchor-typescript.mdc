@@ -13,3 +13,5 @@ import assert from "node:assert";
 ```
 
 Use `test` rather than `it`.
+
+Use `catch (thrownObject)` and then `const error = thrownObject as Error;` - you can assume any item thrown is an Error.

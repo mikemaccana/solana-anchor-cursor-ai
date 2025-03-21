@@ -11,7 +11,7 @@ Create files inside the `handlers` folder for whatever instruction handlers are 
 
 Use a newline after each key in the account constraints, so the macro and the matching key/value have some space from other macros and their matching key/value.
 
-Use `context` rather than `ctx`. Avoid abbreviations, and use full words. Never use `e` for something thrown. In TypeScript, use `catch (thrownObject)` and then `const error = thrownObject as Error;` - you can assume any item thrown is an Error.
+Use `context` rather than `ctx`. Avoid abbreviations, and use full words. Never use `e` for something thrown. 
 
 Delete unused constants, unused instruction handlers and comments that no longer apply.
 
