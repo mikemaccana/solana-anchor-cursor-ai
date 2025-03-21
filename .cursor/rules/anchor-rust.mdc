@@ -19,8 +19,8 @@ Use `context.bumps.foo` not `context.bumps.get("foo").unwrap()` - the latter is 
 
 When making structs ensure strings and Vectors have a max_len attribute. Vectors have two numbers, the first is the max length of the vector, the second is the max length of the items in the vector.
 
-Use the INIT_SPACE macro for all structs stored onchain. Make a constant for ANCHOR_DISCRIMINATOR that is a usize of 8. Do not use magic numbers. I don't want to see `8 + 32` or whatever. Do NOT use magic numbers. Do not make constants for the sizes of various data structures, you can use INIT_SPACE for this.
-
+Do not use magic numbers anywhere. I don't want to see `8 + 32` or whatever.  Do not make constants for the sizes of various data structures. For `space`, use a syntax like
+`space = SomeStruct::DISCRIMINATOR.len() + SomeStruct::INIT_SPACE,`. Do NOT use magic numbers.
 
 Return useful error messages. Write code to handle common errors like insufficient funds, bad values for parameters, and other obvious situations.
 
